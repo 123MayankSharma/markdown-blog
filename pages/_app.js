@@ -1,9 +1,10 @@
 import 'tailwindcss/tailwind.css'
+im
 import Link from 'next/link'
 function MyApp({ Component, pageProps }) {
     return (<>
         <nav>
-            <ul>
+            <ol>
                 <li>
                     <Link href="/">
                         <a>Home</a>
@@ -14,8 +15,8 @@ function MyApp({ Component, pageProps }) {
                         <a>About</a>
                     </Link>
                 </li>
-            </ul>
-        </nav>
+            </ol>
+        </nav>                                                                  
         <Component {...pageProps} />
 
     </>)
